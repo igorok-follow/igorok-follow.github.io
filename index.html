@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>IGOROK WEB-SITE</title>
+	<link rel="stylesheet" type="text/css" href="css.css"/>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+	<script src="https://use.fontawesome.com/a5e30dd034.js"></script>
+	<script> 
+        var tit = document.title; 
+        var c = 0; 
+        function writetitle() { 
+        document.title = tit.substring(0,c);
+            if(c==tit.length) 
+            { 
+                c = 0;setTimeout("writetitle()", 3000) 
+            } 
+            else 
+            { 
+                c++; 
+                setTimeout("writetitle()", 400) 
+                    }
+            } 
+            writetitle() 
+    </script>
+</head>
+<body>
+	<div id="nubexDiv" class="overlay">
+<!--  <video id="nubexVideo" width="100%" height="auto" loop="loop" autoplay="autoplay" preload="auto">
+   <source src="nubex.mp4"></source>
+   <source src="nubex.webm" type="video/webm"></source>
+ </video> -->
+</div>
+	<div class="overlay">
+	<div id="headtext">
+			<font color="white" size="100" face="HACKED">IGOROK
+				<div id="line1">
+			<marquee aligt="center" scrollamount="50" direction="right" width="540" style="width:480px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+				</div>
+				<div id="line2">
+			<marquee aligt="center" scrollamount="50" direction="left" width="540" style="width:480px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+				</div>
+	</div>
+	<div id="link">
+		<ul>
+			<li><a target="_blank" href="https://vk.com/igorok2089" class="fa fa-vk"></a></li>
+			<li><a target="_blank" href="https://steamcommunity.com/id/IGOROK2089/" class="fa fa-steam"></a></li>
+			<li><a target="_blank" href="https://www.instagram.com/igorok_follow/?hl=ru" class="fa fa-instagram"></a></li>
+		</ul>
+</div>
+</div>
+	<video autoplay="1" id="player" onended="location.reload();">
+			<source src="http://stdian.ru/video/video1.mp4" type="video/mp4">
+		</video>
+		<!-- <div id="mask"></div> -->
+</body>
+</html>
